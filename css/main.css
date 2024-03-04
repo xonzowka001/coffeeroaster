@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.siteheader__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteheader__list {
+  width: 283px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.siteheader__logolink {
+  width: 236px;
+}
+
+.siteheader__item {
+  color: rgb(131, 136, 143);
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.92px;
+}
+
+.siteheader__menu {
+  width: 16px;
+  height: 16px;
+  background-image: url(/img/headermenu.png);
+  background-repeat: no-repeat;
+  border: none;
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .siteheader__list {
+    display: none;
+  }
+  .siteheader__menu {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 680px) {
+  .siteheader__logolink {
+    width: 140px;
+  }
+}
+.graetcoffee__container {
+  background-image: url(../../img/img/Bitmap.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.graetcoffee__box {
+  width: 493px;
+  padding: 180px 0 230px 86px;
+  text-align: left;
+}
+
+.graetcoffee__title {
+  color: rgb(254, 252, 247);
+  font-family: Fraunces 9pt;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 32px;
+}
+
+.graetcoffee__texst {
+  color: rgb(254, 252, 247);
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 56px;
+}
+
+.graetcoffee__btn {
+  color: rgb(254, 252, 247);
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  border-radius: 6px;
+  background: rgb(102, 210, 207);
+  padding: 15px 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .graetcoffee__container {
+    background-image: url(../../img/section1.jpeg);
+    height: 600px;
+    padding-bottom: 0;
+  }
+  .graetcoffee__box {
+    padding: 100px 0 100px 50px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .graetcoffee__container {
+    background-image: url(../../img/section3.jpeg);
+    height: 600px;
+  }
+  .graetcoffee__box {
+    padding: 50px 0 50px 58px;
+  }
+}
+@med;/*# sourceMappingURL=main.css.map */
